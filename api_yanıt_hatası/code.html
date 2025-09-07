@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #0d0da5;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-900">
+<div class="relative flex size-full min-h-screen flex-col bg-gradient-to-br from-[#111122] to-[#191933] dark justify-between group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+<div class="flex flex-col h-full">
+<header class="flex items-center p-4">
+<button class="text-white">
+<span class="material-symbols-outlined"> arrow_back_ios </span>
+</button>
+<h1 class="text-white text-lg font-bold flex-1 text-center pr-8">Yorumlar</h1>
+</header>
+<main class="flex-grow flex flex-col items-center justify-center text-center px-6">
+<div class="flex flex-col items-center gap-6">
+<div class="w-40 h-40 flex items-center justify-center bg-red-500/10 rounded-full mb-4">
+<div class="w-28 h-28 flex items-center justify-center bg-red-500/20 rounded-full">
+<span class="material-symbols-outlined text-red-500 text-6xl">
+                  error
+                </span>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2">
+<h2 class="text-white text-2xl font-bold leading-tight tracking-tight">API Hatası</h2>
+<p class="text-gray-400 text-base font-normal leading-normal max-w-sm">
+                Yorumları yüklerken bir sorunla karşılaşıldı. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.
+              </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-[var(--primary-color)] text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors">
+<span class="truncate">Yeniden Dene</span>
+</button>
+</div>
+</main>
+</div>
+<footer class="w-full">
+<nav class="flex justify-around border-t border-gray-700 bg-[#111122]/50 backdrop-blur-sm px-4 pb-3 pt-2">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-gray-400" href="#">
+<span class="material-symbols-outlined"> link </span>
+<p class="text-xs font-medium">URL Girişi</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-white" href="#">
+<span class="material-symbols-outlined"> chat_bubble </span>
+<p class="text-xs font-medium">Yorumlar</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-gray-400" href="#">
+<span class="material-symbols-outlined"> settings </span>
+<p class="text-xs font-medium">Ayarlar</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
