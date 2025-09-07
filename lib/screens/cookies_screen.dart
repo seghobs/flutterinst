@@ -128,7 +128,7 @@ class _CookiesScreenState extends State<CookiesScreen> {
                           color: Colors.white),
                       onPressed: () => Navigator.pop(context),
                     ),
-                    const Expanded(
+                    Expanded(
                       child: Text(
                         'Çerezler',
                         style: TextStyle(
@@ -220,7 +220,7 @@ class _CookiesScreenState extends State<CookiesScreen> {
                         child: TextField(
                           controller: _cookieController,
                           maxLines: 10,
-                          style: const TextStyle(
+                          style: TextStyle(
                             color: Colors.grey.shade200,
                             fontSize: 14,
                             fontFamily: 'monospace',

@@ -250,7 +250,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
                               ),
                               title: Text(
                                 user.username,
-                                style: const TextStyle(
+                                style: TextStyle(
                                   color: Colors.grey.shade200,
                                   fontSize: 16,
                                   fontWeight: FontWeight.w500,
